@@ -1,0 +1,169 @@
+.camptent {
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+    width: 50%;
+    height: 450px;
+}
+
+.camptent1 {
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 450px;
+}
+
+.homeImage {
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 5px solid #ddd;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    width: 600px;
+}
+
+.homeMainContent {
+    height: max-content;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeMainContent>div {
+    width: 100%;
+}
+
+.homeText {
+    display: flex;
+    flex-flow: 1;
+}
+
+.text {
+    margin-top: 3.7%;
+    margin-left: 0%;
+    border: 5px solid #ddd;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 50px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 2;
+}
+
+.thirdPart {
+    border: 5px solid #ddd;
+    background-color: rgb(238, 181, 76);
+    margin-top: 20px;
+}
+
+.campTentType1 {
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+.campTentType2 {
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+.campTentType3 {
+    margin-top: 30px;
+    width: 23.5%;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+.tentName {
+    word-spacing: 250px;
+}
+
+.bookNow {
+    margin-left: 48%;
+}
+
+.button {
+    background-color: rgb(238, 181, 76);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.button1:hover {
+    background-color: rgb(238, 181, 76);
+    color: white;
+}
+
+.customerReview {
+    text-align: center;
+}
+
+.review {
+    margin-top: 20px;
+    border: 5px solid #ddd;
+    float: left;
+    margin-left: 3%;
+    padding: 10px;
+    height: 300px;
+    width: 20%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 100%);
+    width: 20%;
+}
+
+.HaridwarDirection{
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.RshikeshDirection{
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.DehradunDirection{
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+}
