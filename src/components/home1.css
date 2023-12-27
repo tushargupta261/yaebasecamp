@@ -122,15 +122,19 @@
     text-align: center;
 }
 
-.review {
+.reviewContainer{
+    width: 100%;
+    display: flex;
+}
+.singleReview {
     margin-top: 20px;
     border: 5px solid #ddd;
-    float: left;
+    margin: 10px;
     margin-left: 3%;
-    padding: 10px;
     height: 300px;
     width: 20%;
-    text-align: center;
+   display: flex;
+   flex-direction: column;
 }
 
 .row:after {
@@ -150,19 +154,19 @@
     width: 20%;
 }
 
-.HaridwarDirection{
+.HaridwarDirection {
     width: 30%;
     height: 200px;
     margin-top: 50px;
 }
 
-.RshikeshDirection{
+.RshikeshDirection {
     width: 30%;
     height: 200px;
     margin-top: 50px;
 }
 
-.DehradunDirection{
+.DehradunDirection {
     width: 30%;
     height: 200px;
     margin-top: 50px;

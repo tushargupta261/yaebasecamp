@@ -1,12 +1,17 @@
+.bookBackground{
+    background-color: rgb(46, 44, 42);
+}
 .booking{
+    
     margin-left: 30%;
     width: 40%;
-    height: 500px;
     margin-top: 20px;
+    background-color: whitesmoke;
     border: 3px solid green;
 }
 
 .bookingText{   
+    
     margin-top: 4%;
     margin-left: 0%;
     /* border: 5px solid #ddd; */
@@ -17,4 +22,39 @@
     height: 100%;
     text-align: center;
     line-height: 3;
+}
+
+.tenttype{
+    border: 3px solid green;
+    background-color: aliceblue;
+    margin-top: 30px;
+    width: 15%;
+    margin-left: auto;
+}
+
+.tentTypeDiv{
+    display: flex;
+    border: 3px solid green;
+    height: 150px;
+}
+
+.review{
+    width: 90%; 
+    height: 90%;
+    
+}
+
+.guestName{
+    width: 30%;
+    margin: 10px;
+}
+
+.guestGender{
+  width: 20%;
+  margin: 10px;
+}
+
+.guestAge{
+    width: 30%;
+    margin: 10px;
 }

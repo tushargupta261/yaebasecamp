@@ -97,9 +97,9 @@ function Home() {
           <h2>YAO Beloved Customers</h2>
         </div>
 
-        <div className='row' >
+        <div className='reviewContainer' >
           {ReviewRating.map((data, index) => {
-            return <div className='review'>
+            return <div className='singleReview'>
               <p>{data.title}</p>
               <p>{data.description}</p>
               <RatingComponent rating={data.raitng} />
@@ -114,3 +114,5 @@ function Home() {
 }
 
 export default Home;
+
+//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

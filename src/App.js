@@ -12,6 +12,7 @@ import {
 
 import Login from "./components/login";
 import Booking from "./components/Booking";
+import Gallery from "./components/Gallery";
 function App() {
 
   return (
@@ -24,6 +25,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/Booking" element={<Booking />} />
+
+            <Route path="/Gallery" element={<Gallery />} />
 
             <Route path="/footer" element={<Footer />} />
 
